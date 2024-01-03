@@ -37,6 +37,7 @@ body{
     position: relative;
 }
 .Creator-name{
+    padding-right: 20cm;
     color: whitesmoke;
     font-family: 'Rubik Scribble';
 }
@@ -89,7 +90,7 @@ body{
 }
 
 #play-again{
-    top: 20cm;
+    right: 10cm;
     background-color: rgb(236, 164, 30);
     padding: 10px 25px;
     border: none;
