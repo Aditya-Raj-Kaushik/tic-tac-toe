@@ -1,87 +1,108 @@
-❌⭕ Tic Tac Toe – Web Game
-🎮 About the Project
+# ❌⭕ Tic Tac Toe – Web Game
 
-Tic Tac Toe is a simple 2-player web-based game built using HTML, CSS, and JavaScript.
-Players take turns marking X and O in a 3×3 grid. The first player to align three symbols wins.
+## 🎮 About the Project
+
+Tic Tac Toe is a simple **2-player web-based game** built using **HTML, CSS, and JavaScript**.  
+Players take turns marking **X** and **O** in a **3×3 grid**, and the first player to align three symbols wins.
 
 This project focuses on:
 
-Game state management
+- Game state management  
+- Event-driven programming  
+- Winning condition logic  
+- UI updates using JavaScript  
 
-Event-driven programming
+---
 
-Winning condition logic
+## 🚀 Features
 
-UI updates using JavaScript
+- 👥 2-Player mode  
+- 🧠 Winner detection logic  
+- 🔁 Restart game option  
+- 🎨 Clean and responsive UI  
+- ⚡ Instant result display  
 
-🚀 Features
+---
 
-👥 2-Player Mode
+## 🛠️ Tech Stack
 
-🧠 Winner detection logic
+**Frontend**
 
-🔁 Restart game option
+- HTML5 – Game structure  
+- CSS3 – Styling and layout  
+- JavaScript (ES6) – Game logic  
 
-🎨 Clean and responsive UI
+---
 
-⚡ Instant result display
+## 📂 Project Structure
 
-🛠️ Tech Stack
-
-HTML5 – Game structure
-
-CSS3 – Styling and layout
-
-JavaScript (ES6) – Game logic
-
-📂 Project Structure
+```
 TicTacToe/
-│── index.html
-│── style.css
-│── script.js
-🎯 How to Play
+│
+├── index.html
+├── style.css
+└── script.js
+```
 
-Player 1 starts as X
+---
 
-Player 2 plays as O
+## 🎯 How to Play
 
-Players take turns clicking empty boxes
+- **Player 1** starts as **X**  
+- **Player 2** plays as **O**  
+- Players take turns clicking empty boxes  
 
-First player to get:
+A player wins by getting:
 
-3 in a row (horizontal)
+- **3 in a row (horizontal)**  
+- **3 in a column (vertical)**  
+- **3 diagonally**
 
-3 in a column (vertical)
+If all boxes are filled and no winner is found → **It's a Draw**.
 
-3 diagonally
-wins the game
+---
 
-If all boxes are filled and no winner → It's a Draw
+## 🖥️ Installation & Setup
 
-🖥️ Installation & Setup
+1. Clone the repository
 
-Clone the repository
-
+```
 git clone https://github.com/your-username/tic-tac-toe.git
+```
 
-Open the project folder
+2. Open the project folder
 
-Run index.html in your browser
+3. Run the game
 
-📸 Screenshot
+Simply open **index.html** in your browser.
 
-(Add screenshot here)
+No additional dependencies are required.
 
-📌 Future Improvements
+---
 
-Add AI opponent
+## 📸 Screenshot
 
-Add score history
+(Add a screenshot of the game here)
 
-Add animations
+Example:
 
-Online multiplayer version
+```
+![Game Screenshot](assets/screenshot.png)
+```
 
-📜 License
+---
 
-This project is open-source and available under the MIT License.
+## 📌 Future Improvements
+
+Planned enhancements:
+
+- Add **AI opponent**
+- Add **score history**
+- Add **animations**
+- Online **multiplayer version**
+
+---
+
+## 📜 License
+
+This project is **open-source** and available under the **MIT License**.
